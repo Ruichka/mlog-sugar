@@ -7,7 +7,7 @@ It adds 3 macrooperators: `$`, `%` and `*`.
 ## How to use
 
 **If you want to just use it:** You can access online converter at http://mlog-sugar.ruika.repl.co/  
-**If you want to include it in your project:** Include the `convert.js` file in your project and then use `convertSugar(text)` function to convert.  
+**If you want to include it in your project:** Include the `convertSugar(text)` function from `convert.js` file in your project.  
 
 ## Operators list
 
