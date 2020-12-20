@@ -1,4 +1,4 @@
-function convertSugar(a)
+function convertSugar(a) {
   if (a[a.length] != "\n") {a = a + "\n"}
   var b = a.split("\n")
   var f = []
