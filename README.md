@@ -87,4 +87,9 @@ Operators in this extension are highly sensitive. All operators must strictly fo
     <td>*label print "Hi!"</td>
     <td>print "Hi!" *label</td>
   </tr>
+  <tr>
+    <td>Do not use $%* symbols in your code for any other reason than using them for operators.<br>Note: I (most likely) will change these symbols to something less used later.</td>
+    <td></td>
+    <td>print "25% charged"</td>
+  </tr>
 </table>
