@@ -69,8 +69,8 @@ Operators in this extension are highly sensitive. All operators must strictly fo
   </tr>
   <tr>
     <td>Definition operator (%) must always be on a separate line.</td>
-    <td>%a=8<br>op sub result %a 10</td>
-    <td>%a=8 op sub result %a 10</td>
+    <td>%a=8<br>op sub result $a 10</td>
+    <td>%a=8 op sub result $a 10</td>
   </tr>
   <tr>
     <td>Definition operator (%) must have no spaces near "=" sign.</td>
@@ -86,10 +86,5 @@ Operators in this extension are highly sensitive. All operators must strictly fo
     <td>Label operator (*) must always be at start of line.</td>
     <td>*label print "Hi!"</td>
     <td>print "Hi!" *label</td>
-  </tr>
-  <tr>
-    <td>Do not use $%* symbols in your code for any other reason than using them for operators.<br>Note: I (most likely) will change these symbols to something less used later.</td>
-    <td></td>
-    <td>print "25% charged"</td>
   </tr>
 </table>
